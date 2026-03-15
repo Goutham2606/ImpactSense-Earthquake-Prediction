@@ -41,4 +41,3 @@ The models were evaluated using:
 - Matplotlib
 - Jupyter Notebook
 
-## Project Structure
