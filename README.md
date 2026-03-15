@@ -18,20 +18,33 @@ The dataset used in this project was obtained from Kaggle and contains historica
 ## Target Variable
 Risk Level (Low, Medium, High)
 
+## Risk Level Classification
+To predict earthquake impact, magnitude values were converted into risk categories.
+
+| Magnitude Range | Risk Level |
+|-----------------|-----------|
+| Less than 2.5   | Low       |
+| 2.5 – 4.5       | Medium    |
+| Greater than 4.5| High      |
+
 ## Machine Learning Models Implemented
-Baseline Models:
+
+### Baseline Models
 - Logistic Regression
 - Decision Tree
 
-Advanced Models:
+### Advanced Models
 - Random Forest
 - Gradient Boosting
 
 ## Model Evaluation
-The models were evaluated using:
+The models were evaluated using the following metrics:
+
 - Accuracy
 - Confusion Matrix
-- Classification Report
+- Classification Report (Precision, Recall, F1-score)
+
+These metrics help measure the performance and reliability of the prediction models.
 
 ## Technologies Used
 - Python
@@ -39,5 +52,12 @@ The models were evaluated using:
 - NumPy
 - Scikit-learn
 - Matplotlib
-- Jupyter Notebook
+- Jupyter Notebook / Google Colab
 
+## Project Structure
+ImpactSense-Earthquake-Prediction
+│
+├── milestone2_model_training.ipynb  
+├── milestone2_documentation.pdf  
+├── earthquake_1995-2023.csv  
+└── README.md 
