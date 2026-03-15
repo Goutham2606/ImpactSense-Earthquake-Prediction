@@ -61,3 +61,11 @@ ImpactSense-Earthquake-Prediction
 ├── milestone2_documentation.pdf  
 ├── earthquake_1995-2023.csv  
 └── README.md 
+
+## Future Improvements
+Future improvements may include:
+
+- Hyperparameter tuning for better accuracy
+- Feature importance analysis
+- Integration with real-time earthquake data
+- Building a user interface for predictions
